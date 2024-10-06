@@ -1,7 +1,7 @@
 # Academic System Rest API
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white)  ![H2 Database](https://img.shields.io/badge/H2%20Database-018bff?style=for-the-badge&logoColor=white)
 
-I developed a Rest API to manage courses and their students, in an academic system, built by using **Spring Boot and Java**, providing CRUD (Create, Read, Update, Delete) operations. This API allows to store course information, such as: course code, name, description, credits, and max students (the maximum number of students allowed in this course). Additionally, it supports the storage of student information, which includes: document, first name, last name, gender and birth date.
+I developed a Rest API to manage courses and their students, in an academic system, built by using **Spring Boot and Java**, providing CRUD (Create, Read, Update, Delete) operations. This API allows to store course information, such as: course code, name, description, credits, and max students (the maximum number of students allowed in the course). Additionally, it supports the storage of student information, which includes: document, first name, last name, gender and birth date.
 
 ## Requirements
 
