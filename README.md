@@ -17,7 +17,7 @@ Below are some business rules that were important for the functioning:
 
 • A student has a score for each enrolled course. The score is added after the student is enrolled in a course (it is initially set to a default value of 0 and must be updated later).
 
-• Allow to remove a student from the system. 
+• Allow the removal of a student from the system. 
 
 • After a student is removed from the system, all the related courses must be updated to indicate that an additional spot is now available (update the number of current students for those courses).
 
@@ -25,7 +25,7 @@ Below are some business rules that were important for the functioning:
 
 • Retrieve a list of all courses and their associated scores for a particular student.
 
-• Allow to remove (or unrolled) a student from a particular course.
+• Allow the removal (or unenrollment) of a student from a particular course.
 
 • After a student is removed from a particular course, the related course must be updated to indicate that an additional spot is now available.
 
