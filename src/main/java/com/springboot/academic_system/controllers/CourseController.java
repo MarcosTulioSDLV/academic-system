@@ -23,7 +23,7 @@ public class CourseController {
         this.courseService = courseService;
     }
 
-    @GetMapping(name = "/courses")
+    @GetMapping(value = "/courses")
     public ResponseEntity<Page<CourseResponseDto>> getAllCourses(@PageableDefault(size = 10) Pageable pageable){
         return ResponseEntity.ok(courseService.getAllCourses(pageable));
     }
